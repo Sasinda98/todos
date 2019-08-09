@@ -15,13 +15,13 @@ function App() {
 
   return (
     <div className="App">
-      <NavigationBar loggedIn={true} />
+    	<div className="NavBarStyle">
+  			<NavigationBar loggedIn={true}  />
+    	</div>
+    
       <Container className="Container">
         <Body></Body>
-    
       </Container>
-   
-
     </div>
   );
 }

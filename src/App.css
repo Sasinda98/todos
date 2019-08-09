@@ -5,12 +5,14 @@
 .Container{
 	padding-top: 20px;
 }
+.NavBarStyle{
+	box-shadow: 0 0px 5px 1px black;
+}
 
 body{
-	background-color: grey;
-  background-image: linear-gradient(45deg, transparent 20%, black 25%, transparent 25%), 
-                    linear-gradient(-45deg, transparent 20%, black 25%, transparent 25%), 
-                    linear-gradient(-45deg, transparent 75%, black 80%, transparent 0),
-                    radial-gradient(gray 2px, transparent 0);
-  background-size: 30px 30px, 30px 30px;
+background:
+linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+background-color:#708090;
+background-size: 64px 128px;
 }

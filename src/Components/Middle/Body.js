@@ -5,31 +5,16 @@ import 'tachyons';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import Button from 'react-bootstrap/Button';
 import DropdownButton from 'react-bootstrap/DropdownButton';
-import Items from './Items/Items';
+import TaskList from './Tasks/TaskList';
 import Dropdown from 'react-bootstrap/Dropdown';
 
-import {tasks} from './Items/SampleTasks';
+import {tasks} from './Tasks/SampleTasks';
 
 class Body extends Component {
 
-	losse = tasks.map(
-				(results, i)=>{
-					return <h1 key={i}>{results.name}</h1>
-				}
-			);
-	
-	taskL = () =>{
-		this.losse();
-		return(
-			<div>
-				
-			</div>
-			);
-	}
-
 	render() {
 		return (
-			<div>
+			<div className="container-card">
 				<div className="top bg-light-purple br--top br2 pa2">
 					<DropdownButton id="dropdown-item-button" title="Sort By">
 					  <Dropdown.Item as="button">Date Time</Dropdown.Item>
@@ -40,9 +25,7 @@ class Body extends Component {
 
 				</div>
 				<div className="body">
-					<Items/>
-					{this.losse}
-
+					<TaskList/>
 				</div>
 			</div>
 		);

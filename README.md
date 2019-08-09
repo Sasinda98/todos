@@ -1,4 +1,5 @@
-Todos,
+##Todo's
+
 A React web app made to manage day to day tasks.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

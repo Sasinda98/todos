@@ -22,7 +22,7 @@ class Task extends Component {
 					        </Tooltip>
 					      }
 					    >
-						    <Accordion.Toggle as={Card.Header} eventKey="1" className="fx">
+						    <Accordion.Toggle as={Card.Header} eventKey="1" className="accordion-layout">
 						      <p className="f3 b ma0 pa0 self-center">{this.props.title}</p> 
 						      <p className="f5 ma0 pa0 self-center">{this.props.date} {this.props.time}</p>
 						    </Accordion.Toggle>
